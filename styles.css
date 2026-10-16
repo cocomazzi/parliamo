@@ -125,3 +125,5 @@ body[data-page="help"] #conversationsView{display:none!important}body[data-page=
 .first-visit-guide p{font-size:13px;margin:7px 0;color:#64566e}
 .first-visit-guide-link{display:inline-block;color:#59378b;font-size:14px;font-weight:700;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:680px){.app-header .app-top{min-height:62px;padding:8px 12px;gap:6px}.app-header .main-nav{display:none}.app-header .brand small{font-size:9px}.app-header .brand strong{font-size:17px}.app-header .nav-tools{gap:2px}.app-header .help-icon{min-width:33px;width:33px;height:33px;font-size:17px}.app-header .timer-pill{padding:8px;font-size:11px;gap:3px}.app-header .timer-pill #timerStateLabel{display:none}}
+
+@media(max-width:680px){.mobile-nav{grid-template-columns:repeat(5,minmax(0,1fr))}.mobile-nav-item{font-size:10px;min-width:0;padding-left:0;padding-right:0}.mobile-nav-item span{padding-left:6px;padding-right:6px}}
