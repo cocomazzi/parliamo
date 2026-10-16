@@ -130,6 +130,6 @@ body[data-page="help"] #conversationsView{display:none!important}body[data-page=
 
 /* Guide discovery: gentle pulse until the guide is opened */
 .app-header .help-icon.help-attention{position:relative;isolation:isolate;border-color:#8b64bb;background:#f2e9fc;color:#573587}
-.app-header .help-icon.help-attention::after{content:"";position:absolute;inset:-3px;border:2px solid #946dc7;border-radius:50%;pointer-events:none;animation:help-guide-pulse 3s ease-out infinite}
+.app-header .help-icon.help-attention::after{content:"";position:absolute;inset:-3px;border:2px solid #946dc7;border-radius:50%;pointer-events:none;animation:help-guide-pulse 1s ease-out infinite}
 @keyframes help-guide-pulse{0%,15%{transform:scale(1);opacity:0}23%{opacity:.72}62%,100%{transform:scale(1.45);opacity:0}}
 @media(prefers-reduced-motion:reduce){.app-header .help-icon.help-attention::after{animation:none;opacity:0}}
