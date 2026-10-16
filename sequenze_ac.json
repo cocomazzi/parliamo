@@ -10,11 +10,12 @@
       "Conseguenza"
     ],
     "questions": [
-      "Chi ha una novità in famiglia?",
-      "Che cosa è successo esattamente?",
-      "Che cosa cambia adesso per questa persona?"
+      "Chiedi se ha sentito gli altri parenti questa settimana.",
+      "Chiedi se qualcuno ha iniziato un nuovo lavoro o un'attività.",
+      "Chiedi se hanno organizzato qualcosa per il fine settimana."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Inizia la conversazione. Chiedi al tuo parente che cosa c'è di nuovo nella sua vita."
   },
   {
     "id": "ac-02",
@@ -27,11 +28,12 @@
       "Successione"
     ],
     "questions": [
-      "Con chi hai passato il tempo e dove?",
-      "Che cosa avete fatto insieme, precisamente?",
-      "Che cosa avete fatto subito dopo?"
+      "Che cosa hai fatto sabato mattina?",
+      "Che cosa hai mangiato a pranzo domenica?",
+      "Chi hai incontrato questa settimana? Che cosa avete fatto insieme?"
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Racconta al tuo parente qualcosa che hai fatto negli ultimi giorni."
   },
   {
     "id": "ac-03",
@@ -44,11 +46,12 @@
       "Rilancio"
     ],
     "questions": [
-      "Di quale parente vuoi avere notizie?",
-      "Che cosa fa in questo periodo?",
-      "Quale domanda puoi fargli sulla sua settimana?"
+      "Chiedi come sta un parente che non senti da tempo.",
+      "Chiedi che cosa fa in questi giorni.",
+      "Chiedi se ha fatto qualcosa di interessante recentemente."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Chiedi notizie di un altro familiare e mostra interesse per quello che fa."
   },
   {
     "id": "ac-04",
@@ -61,11 +64,12 @@
       "Conferma"
     ],
     "questions": [
-      "Con chi vuoi parlare di nuovo?",
-      "Quale giorno e quale ora proponi?",
-      "Come puoi chiedere se quel momento va bene?"
+      "Proponi una telefonata domenica pomeriggio.",
+      "Chiedi a che ora il tuo parente finisce di lavorare venerdì.",
+      "Proponi una videochiamata anche con altri familiari."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Prima di salutare, proponi un'altra telefonata e cerca di concordare un momento."
   },
   {
     "id": "ac-05",
@@ -78,11 +82,12 @@
       "Risposta"
     ],
     "questions": [
-      "Quali parenti vuoi visitare e perché?",
-      "Come puoi proporre la visita a loro?",
-      "Che cosa chiedi per sapere se sono disponibili?"
+      "Spiega a chi vuoi fare visita durante le vacanze.",
+      "Proponi di venire per un compleanno o una festa.",
+      "Chiedi se puoi passare a trovare i parenti per un fine settimana."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Proponi ai tuoi parenti una visita in Italia."
   },
   {
     "id": "ac-06",
@@ -95,11 +100,12 @@
       "Accordo"
     ],
     "questions": [
-      "In quali giorni sei libero?",
-      "Quali giorni non vanno bene per la famiglia?",
-      "Quale data precisa proponi alla fine?"
+      "Proponi di arrivare venerdì sera.",
+      "Chiedi se i tuoi parenti sono liberi la settimana dopo Natale.",
+      "Spiega che lunedì lavori e proponi un altro giorno."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Parlate del periodo della visita e cercate date comode per tutti."
   },
   {
     "id": "ac-07",
@@ -112,11 +118,12 @@
       "Conferma"
     ],
     "questions": [
-      "Quali parenti vuoi vedere per primi?",
-      "Dove potete incontrarvi?",
-      "Come chiedi a tutti di confermare?"
+      "Proponi di passare a salutare gli zii dopo pranzo.",
+      "Chiedi se domenica i cugini possono venire a casa.",
+      "Proponi un caffè con un parente che non vedi da tempo."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Organizza con il tuo parente chi incontrare durante il soggiorno."
   },
   {
     "id": "ac-08",
@@ -129,11 +136,12 @@
       "Scelta"
     ],
     "questions": [
-      "Che cosa piace fare alle persone del gruppo?",
-      "Quale attività proponi e in quale posto?",
-      "Come chiedi quale attività preferiscono?"
+      "Proponi una passeggiata in centro sabato mattina.",
+      "Invita tuo cugino a tornare in un ristorante che conoscete.",
+      "Proponi qualcosa da fare insieme se piove."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Proponi alcune attività da fare insieme durante la visita."
   },
   {
     "id": "ac-09",
@@ -146,11 +154,12 @@
       "Seguito"
     ],
     "questions": [
-      "Quale festa o giornata ricordi?",
-      "Chi era presente e che cosa avete fatto insieme?",
-      "Che cosa è successo dopo quel momento?"
+      "Ricorda l'ultimo pranzo in famiglia: che cosa avete mangiato?",
+      "Chi è venuto all'ultima festa di compleanno?",
+      "Che cosa avete fatto dopo il pranzo o la festa?"
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Racconta a un parente un ricordo di una festa o di una giornata insieme."
   },
   {
     "id": "ac-10",
@@ -163,11 +172,12 @@
       "Svolgimento"
     ],
     "questions": [
-      "Quando celebrate questa tradizione?",
-      "Che cosa preparate prima della festa?",
-      "Chi fa che cosa durante la giornata?"
+      "Che cosa preparate da mangiare a Natale o a Pasqua?",
+      "Chi prepara la tavola o compra i regali?",
+      "Dove vi incontrate per festeggiare un compleanno?"
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Spiega a un parente come festeggiate una ricorrenza nella tua famiglia."
   },
   {
     "id": "ac-11",
@@ -180,11 +190,12 @@
       "Esempio"
     ],
     "questions": [
-      "Quali due tradizioni ti piacciono?",
-      "Quale preferisci e per quale motivo concreto?",
-      "Che cosa fai durante quella festa?"
+      "Scegli un piatto delle feste che ti piace particolarmente.",
+      "Preferisci un pranzo a casa o una cena al ristorante? Perché?",
+      "Quale momento del Natale ti piace di più?"
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Racconta quale festa o tradizione preferisci e spiega il motivo."
   },
   {
     "id": "ac-12",
@@ -197,11 +208,12 @@
       "Esperienza"
     ],
     "questions": [
-      "Che cosa fate in Italia per questa occasione?",
-      "Che cosa fate nei Paesi Bassi?",
-      "Quale differenza hai notato personalmente?"
+      "Confronta l'ora di cena nelle due famiglie.",
+      "Racconta che cosa si mangia a colazione nei due Paesi.",
+      "Spiega come festeggiate un compleanno nei Paesi Bassi."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Spiega a un parente una differenza tra le abitudini in Italia e nei Paesi Bassi."
   },
   {
     "id": "ac-13",
@@ -214,11 +226,12 @@
       "Dettaglio"
     ],
     "questions": [
-      "Dove passi gran parte della giornata?",
-      "Che cosa fai di solito al mattino?",
-      "Quale attività fai spesso con la tua famiglia?"
+      "Come vai al lavoro e quanto tempo ci metti?",
+      "Dove fai la spesa durante la settimana?",
+      "Che cosa fai quando torni a casa la sera?"
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Racconta a un parente come si svolge una tua giornata nei Paesi Bassi."
   },
   {
     "id": "ac-14",
@@ -231,11 +244,12 @@
       "Esempio"
     ],
     "questions": [
-      "Quali due aspetti della vita quotidiana confronti?",
-      "Quale preferisci e perché?",
-      "Racconta un caso concreto della tua esperienza."
+      "Preferisci fare la spesa al mercato o al supermercato?",
+      "Dove ti piace passare la domenica?",
+      "Quale abitudine italiana mantieni anche nei Paesi Bassi?"
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Spiega quali aspetti della vita nei Paesi Bassi e in Italia preferisci."
   },
   {
     "id": "ac-15",
@@ -248,11 +262,12 @@
       "Risultato"
     ],
     "questions": [
-      "Dove eri e con chi?",
-      "Che cosa hai fatto appena sei arrivato?",
-      "Che cosa è successo dopo?"
+      "Dove sei andato durante il tuo primo fine settimana nei Paesi Bassi?",
+      "Hai invitato un parente italiano a casa tua? Che cosa avete fatto?",
+      "Racconta una volta in cui hai parlato olandese in un negozio."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Racconta a un parente un'esperienza che hai vissuto nei Paesi Bassi."
   },
   {
     "id": "ac-16",
@@ -265,11 +280,12 @@
       "Preferenza"
     ],
     "questions": [
-      "Che cosa trovi nel primo luogo?",
-      "Che cosa trovi invece nel secondo?",
-      "Quale dei due è più comodo per una tua attività quotidiana?"
+      "Quali negozi hai vicino a casa nei Paesi Bassi?",
+      "Che cosa puoi fare in bicicletta vicino a casa tua?",
+      "Com'è il trasporto pubblico nei due luoghi?"
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Descrivi a un parente alcune differenze tra il luogo in cui vivi e il suo paese o la sua città."
   },
   {
     "id": "ac-17",
@@ -282,11 +298,12 @@
       "Disponibilità"
     ],
     "questions": [
-      "Per quale occasione vuoi incontrarvi?",
-      "Chi vuoi invitare?",
-      "Quale giorno e luogo proponi?"
+      "Invita i cugini a cena sabato.",
+      "Proponi un caffè in centro domenica mattina.",
+      "Proponi di festeggiare insieme il compleanno di un parente."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Invita alcuni parenti a incontrarsi e proponi un'occasione."
   },
   {
     "id": "ac-18",
@@ -299,11 +316,12 @@
       "Scelta"
     ],
     "questions": [
-      "Quali due posti conosci?",
-      "Che cosa piace mangiare alle persone invitate?",
-      "Quale posto scegli per il gruppo e perché?"
+      "Proponi una pizzeria vicino a casa.",
+      "Chiedi se qualcuno preferisce mangiare pesce.",
+      "Chiedi se qualcuno non mangia carne e proponi un'alternativa."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Parla con i parenti e scegli un posto dove mangiare insieme."
   },
   {
     "id": "ac-19",
@@ -316,11 +334,12 @@
       "Decisione"
     ],
     "questions": [
-      "Qual è la prima possibilità?",
-      "Qual è l'altra possibilità?",
-      "Che cosa cambia per il gruppo, per esempio nel prezzo o nella distanza?"
+      "Confronta il prezzo della pizzeria e della trattoria.",
+      "Spiega quale ristorante è più vicino.",
+      "Confronta due posti: dove è più facile parcheggiare?"
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Confronta due possibilità e aiuta il gruppo a scegliere."
   },
   {
     "id": "ac-20",
@@ -333,10 +352,11 @@
       "Verifica"
     ],
     "questions": [
-      "Quali cose dobbiamo preparare?",
-      "Chi si occupa di ogni cosa?",
-      "A che ora e dove ci troviamo?"
+      "Chiedi chi compra il pane e le bevande.",
+      "Decidi chi passa a prendere i nonni in macchina.",
+      "Concorda l'ora di arrivo e chi porta le chiavi."
     ],
-    "level": "A1.2–A2.2"
+    "level": "A1.2–A2.2",
+    "mainTask": "Prendi accordi concreti con i parenti per organizzare l'incontro."
   }
 ]
