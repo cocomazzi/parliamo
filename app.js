@@ -157,8 +157,8 @@ function openTool(type,selectedGrammar){if(drawer.classList.contains('open'))clo
 function closeTool(){toolDrawer.classList.remove('open');toolDrawer.setAttribute('aria-hidden','true');toolBackdrop.hidden=true;document.body.classList.remove('drawer-open');toolPreviousFocus?.focus()}
 $('closeTool').onclick=closeTool;toolBackdrop.onclick=closeTool;document.querySelectorAll('[data-tool]').forEach(b=>b.onclick=()=>openTool(b.dataset.tool));
 setupSessionUI();
-const viewTargets={conversations:'conversationsView',images:'imagesView',expressions:'expressionsView',grammar:'grammarView'};
-const paths={conversations:'index.html',images:'immagini.html',expressions:'espressioni.html',grammar:'grammatica.html'};document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('current',b.dataset.view===document.body.dataset.page);b.onclick=()=>location.href=paths[b.dataset.view]});
+const viewTargets={paths:'pathsRoot',conversations:'conversationsView',images:'imagesView',expressions:'expressionsView',grammar:'grammarView'};
+const paths={paths:'percorsi.html',conversations:'index.html',images:'immagini.html',expressions:'espressioni.html',grammar:'grammatica.html'};document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('current',b.dataset.view===document.body.dataset.page);b.onclick=()=>location.href=paths[b.dataset.view]});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toolDrawer.classList.contains('open'))closeTool();if(e.key==='Tab'&&toolDrawer.classList.contains('open')){let els=[...toolDrawer.querySelectorAll('button,input,textarea')].filter(x=>!x.disabled);if(els.length){if(e.shiftKey&&document.activeElement===els[0]){e.preventDefault();els.at(-1).focus()}else if(!e.shiftKey&&document.activeElement===els.at(-1)){e.preventDefault();els[0].focus()}}}});
 
 // Curated Commons photo bank. Local images/NN.webp is preferred when supplied; otherwise Commons online.
