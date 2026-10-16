@@ -82,3 +82,14 @@ body[data-page="images"] .photo-frame img{display:block;width:auto;height:auto;m
 .session-invite-options{background:transparent;border:0;text-decoration:underline;text-underline-offset:3px;color:#5e4880;cursor:pointer;padding:10px;font:inherit;font-size:13px}
 .timer-needs-start .timer-pill{border-color:#a98acd;background:#ead9fa;color:#43276d;box-shadow:0 0 0 2px #d9c2f555}
 @media(max-width:700px){.session-invite{margin:12px 14px 4px;padding:15px;display:grid}.session-invite-actions{justify-content:flex-start}}
+
+.start-modal-backdrop:not([hidden]){position:fixed;inset:0;z-index:2000;background:#211a2b99;display:grid;place-items:center;padding:20px}
+.start-modal{width:min(100%,390px);background:#fff;border-radius:25px;padding:30px 26px;box-shadow:0 22px 65px #140d254d;text-align:center;display:grid;gap:17px}
+.start-modal-icon{margin:auto;width:54px;height:54px;display:grid;place-items:center;border-radius:50%;font-size:29px;background:#efe4fa;color:#614397}
+.start-modal h2{font-size:23px;line-height:1.2;margin:0;color:#352845}
+.start-modal p{margin:0;color:#716679;font-size:14px}
+.start-modal-durations{display:flex;gap:8px}
+.start-modal-durations button{flex:1;padding:12px 6px;border:1px solid #d5c9e5;background:#faf7fe;border-radius:13px;font:inherit;cursor:pointer}
+.start-modal-durations button[aria-pressed=true]{background:#e5d5fa;border:2px solid #754eb1;font-weight:750;color:#43266d}
+.start-modal-go{width:100%;justify-content:center}
+.start-modal-skip{border:0;background:transparent;text-decoration:underline;text-underline-offset:3px;color:#665575;cursor:pointer;font:inherit;font-size:13px;padding:5px}
