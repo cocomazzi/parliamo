@@ -1,0 +1,1 @@
+document.getElementById('copyHelpPrompt')?.addEventListener('click',async()=>{const text=document.getElementById('helpPromptText').textContent;const status=document.getElementById('helpCopyStatus');try{await navigator.clipboard.writeText(text);status.textContent='Prompt copiato.'}catch{status.textContent='Seleziona il testo e copialo manualmente.'}});
