@@ -93,3 +93,17 @@ body[data-page="images"] .photo-frame img{display:block;width:auto;height:auto;m
 .start-modal-durations button[aria-pressed=true]{background:#e5d5fa;border:2px solid #754eb1;font-weight:750;color:#43266d}
 .start-modal-go{width:100%;justify-content:center}
 .start-modal-skip{border:0;background:transparent;text-decoration:underline;text-underline-offset:3px;color:#665575;cursor:pointer;font:inherit;font-size:13px;padding:5px}
+
+/* Recommended paths */
+body[data-page="paths"] #conversationsView{display:none!important}
+body[data-page="paths"] #pathsRoot{display:block;max-width:1160px;margin:0 auto;padding:30px 20px 65px}
+.paths-hero{margin-bottom:25px}.paths-hero h1{font-size:clamp(25px,3vw,37px);margin:7px 0 10px}.paths-hero p{max-width:690px;color:#6d6476;line-height:1.6}
+.paths-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:22px 0 34px}
+.path-option{text-align:left;display:flex;flex-direction:column;gap:9px;padding:19px;border-radius:19px;border:1px solid #dfd8e9;background:#fff;color:#332943;cursor:pointer;font:inherit}
+.path-option.current{border:2px solid #7651a7;background:#f3ebfc;padding:18px}
+.path-option strong{font-size:16px}.path-option small{font-size:12px;line-height:1.5;color:#70657b}.path-icon{background:#eee6f6;width:42px;height:42px;display:grid;place-items:center;border-radius:13px;font-size:23px}
+.paths-detail{background:#fff;border:1px solid #e2dbe9;border-radius:23px;padding:26px}
+.paths-detail-head{display:flex;align-items:start;justify-content:space-between;gap:18px;margin-bottom:22px}.paths-detail h2{font-size:26px;margin:7px 0}.paths-detail-head p{margin:0;color:#736979}.paths-optional{color:#6d568d;background:#f3ebfa;border-radius:30px;padding:8px 11px;white-space:nowrap;font-size:12px}
+.paths-stages{display:grid;gap:10px}.path-stage{border:1px solid #e6dfec;border-radius:15px;overflow:hidden}.path-stage summary{display:flex;align-items:center;gap:15px;cursor:pointer;padding:16px;list-style:none}.path-stage summary::-webkit-details-marker{display:none}.path-number{width:36px;height:36px;border-radius:11px;background:#eee8f5;color:#533d77;font-weight:700;display:grid;place-items:center;flex:none}.path-stage-name{display:grid;gap:5px;flex:1}.path-stage-name small{font-size:12px;color:#74697d}.path-placeholder{font-size:11px;color:#756487;background:#f3f0f7;padding:6px 9px;border-radius:99px}.path-stage-content{padding:0 20px 21px 67px}.path-stage-content ul{line-height:1.9;margin:9px 0}.path-stage-content p{font-size:12px;color:#796d81}
+@media(max-width:850px){.paths-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.paths-detail-head{flex-wrap:wrap}}
+@media(max-width:520px){body[data-page="paths"] #pathsRoot{padding:20px 14px 85px}.paths-detail{padding:15px}.path-option{padding:14px}.path-option.current{padding:13px}.path-placeholder{display:none}.path-stage summary{gap:10px}.path-stage-content{padding-left:22px}}
