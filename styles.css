@@ -69,3 +69,16 @@ body[data-page="images"] .photo-frame img{display:block;width:auto;height:auto;m
 .timer-options .session-choice{flex:1;white-space:nowrap}
 .timer-note{font-size:12px;line-height:1.5;color:#6b5f79}
 @media(max-width:750px){.header-timer{margin-left:auto}.timer-pill{padding:8px 10px}.timer-pill span{display:none}.timer-panel{right:0}}
+
+/* Start-session invitation: visible before practice, compact once started */
+.session-invite{max-width:1180px;margin:18px auto 6px;padding:17px 21px;border:1px solid #d1bce7;background:#f4eafa;border-radius:20px;display:flex;align-items:center;justify-content:space-between;gap:18px;box-shadow:0 5px 15px #57406b10}
+.session-invite[hidden]{display:none}
+.session-invite-copy{display:grid;gap:4px;color:#3c2b55}
+.session-invite-eyebrow{font-size:10px;font-weight:800;letter-spacing:.1em;color:#7659a1}
+.session-invite-copy strong{font-size:18px}
+.session-invite-copy>span:last-child{font-size:13px;color:#64566f}
+.session-invite-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.session-invite-start{white-space:nowrap}
+.session-invite-options{background:transparent;border:0;text-decoration:underline;text-underline-offset:3px;color:#5e4880;cursor:pointer;padding:10px;font:inherit;font-size:13px}
+.timer-needs-start .timer-pill{border-color:#a98acd;background:#ead9fa;color:#43276d;box-shadow:0 0 0 2px #d9c2f555}
+@media(max-width:700px){.session-invite{margin:12px 14px 4px;padding:15px;display:grid}.session-invite-actions{justify-content:flex-start}}
